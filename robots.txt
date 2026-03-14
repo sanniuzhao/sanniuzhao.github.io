@@ -1,5 +1,13 @@
 User-agent: *
 Allow: /
-Disallow:
+Disallow: /js/
+Disallow: /css/
+Disallow: /lib/
+Disallow: /search.xml
+Disallow: /atom.xml
+
+# Crawl-delay: 1
+Clean-param: p /
 
 Sitemap: https://sanniuzhao.github.io/sitemap.xml
+Sitemap: https://sanniuzhao.github.io/sitemap.txt
